@@ -1,7 +1,6 @@
 package application;
-
-public class Priorizavel {
+ 
+public interface Priorizavel {
     int obterNivelPrioridade();
     void definirPrioridade(int nivel);
-    
 }
